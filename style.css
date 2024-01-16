@@ -585,6 +585,81 @@ margin-bottom: 100px;
     height: 315px;
 }
 
+.explore-item{
+    width: 1170px;
+    height: 600px;
+    margin: 0 auto;
+    
+}
+
+.explore-cart{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 24px;
+margin-top: 24px;
+}
+
+
+
+.cart{
+    
+    padding: 20px;
+    background-color: #FF5400;
+    height: 300px;
+    border-radius: 16px;
+    text-align: start;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    background-image: url(Images/cox.jpeg);
+    background-size: cover;
+}
+
+.cart-1{
+    
+    padding: 20px;
+    background-color: #FF5400;
+    height: 300px;
+    border-radius: 16px;
+    text-align: start;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    background-image: url(Images/sylhet.jpeg);
+    background-size: cover;
+}
+
+.cart-2{
+    
+    padding: 20px;
+    background-color: #FF5400;
+    height: 300px;
+    border-radius: 16px;
+    text-align: start;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    background-image: url(Images/kolkata.jpg);
+    background-size: cover;
+}
+
+.cart-3-3{
+    
+    padding: 20px;
+    background-color: #FF5400;
+    height: 300px;
+    border-radius: 16px;
+    text-align: start;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    background-image: url(Images/uk.jpeg);
+    background-size: cover;
+}
 
 .newsletter{
     width: 1170px;
