@@ -557,6 +557,8 @@ align-items: center;
     margin-top: 16px;
 }
 
+
+
 .middle-btn{
 text-align: center;
 margin-bottom: 100px;
@@ -1158,16 +1160,18 @@ footer > h3{
     }
 
     .discount{
-        padding: 0 60px;
+        padding: 0 0px;
     }
 
     .discount-cart-1{
         width: 335px;
         height: 500px;
         background-image: url(Images/discount-1.png) ;
-        margin-top: 850px;
+        margin-top: 1100px;
         display: flex;
         align-items: center;
+        justify-content: center;
+        justify-items: center;
         background-size: cover;
         border-radius: 16px;
         
@@ -1176,10 +1180,11 @@ footer > h3{
     .discount-cart-2{
         width: 335px;
         height: 500px;
-        background-image: url(Images/discount-1.png) ;
+        background-image: url(Images/discount-2.png) ;
         margin-top: 32px;
         display: flex;
         align-items: center;
+        justify-content: center;
         background-size: cover;
         border-radius: 16px;
         
@@ -1198,7 +1203,7 @@ footer > h3{
     }
 
     .discount-cart{
-        width: auto;
+        width: 300px;
         height: auto;
         align-items: flex-end;
         border-radius: 16px;
@@ -1207,6 +1212,19 @@ footer > h3{
         backdrop-filter: blur(2.5px);
         
     }
+
+    
+
+    /* .discount-cart{
+        width: auto;
+        height: auto;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        
+    
+    } */
 
     .icon{
         display: grid;
@@ -1246,6 +1264,8 @@ footer > h3{
            padding: 0;
            margin: 0; 
         }
+
+       
               
         .video{
             padding: 40px 60px;
